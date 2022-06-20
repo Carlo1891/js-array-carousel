@@ -28,5 +28,24 @@
 // Scriviamo sempre prima per punti il nostro algoritmo in italiano per capire cosa vogliamo fare
 // Al momento giusto (ihihhi starà a voi capire quale) rispondete a questa domanda: "Quanti cicli servono?"
 
+// Array con immagini di dimensioni diverse
+
+giveImages = [
+    'https://cdn.photographycourse.net/wp-content/uploads/2022/04/Portrait-vs-Landscape-Featured-Image-3.jpg',
+    // 'https://i.natgeofe.com/n/2a832501-483e-422f-985c-0e93757b7d84/6.jpg',
+    // 'https://cdn.photographycourse.net/wp-content/uploads/2014/11/Landscape-Photography-steps.jpg',
+    // 'https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg',
+    // 'https://iso.500px.com/wp-content/uploads/2021/02/Torres-Del-Paine-Sunset-By-Paul-Reiffer-2-1500x1000.jpg',
+    // 'https://mymodernmet.com/wp/wp-content/uploads/2020/02/Landscape-Photographer-of-the-Year-Sander-Grefte.jpg'
+];
+
+// Visualizzo array e ne comprendo l'ordine
+console.log (giveImages);
+
+let img = document.createElement("img");
+img.src = giveImages;
+let src = document.getElementById("carousel");
+src.appendChild(img);
+
 
 
